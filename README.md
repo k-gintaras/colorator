@@ -3,7 +3,7 @@ extract colors from image in various ways, (angular-services)
 
 example usage
 
-```javascript
+```typescript
 sortColors() {
     this.generatedColors = this.colorAverager.getSortedBySuperLab(
       this.generatedColors,
